@@ -21,7 +21,7 @@ jobs:
 
       - name: secret 찍어 보기
         run: |
-          ehco "홍구의 이름은"
+          echo "홍구의 이름은"
           echo "{{ secret.HONG }}"
 
 
